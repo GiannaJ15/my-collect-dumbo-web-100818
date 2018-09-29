@@ -9,4 +9,6 @@ altered_collection
 end 
 
 
- 
+  my_collect(['Tim Jones', 'Tom Smith', 'Sophie Johnson', 'Antoin Miller']) do |student|
+   student.split(" ").first
+ end 
